@@ -1,1 +1,2 @@
-# WBAdsTrackSDK
+# WBAutoTrackDemo
+auto track demo
