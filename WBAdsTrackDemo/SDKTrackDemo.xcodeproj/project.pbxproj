@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6750BC0F2573E2350009FBA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC0E2573E2350009FBA5 /* AppDelegate.m */; };
+		6750BC122573E2350009FBA5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC112573E2350009FBA5 /* SceneDelegate.m */; };
+		6750BC152573E2350009FBA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC142573E2350009FBA5 /* ViewController.m */; };
+		6750BC182573E2350009FBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6750BC162573E2350009FBA5 /* Main.storyboard */; };
+		6750BC1A2573E2360009FBA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6750BC192573E2360009FBA5 /* Assets.xcassets */; };
+		6750BC1D2573E2360009FBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6750BC1B2573E2360009FBA5 /* LaunchScreen.storyboard */; };
+		6750BC202573E2360009FBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC1F2573E2360009FBA5 /* main.m */; };
+		D25BAE7D1E123C5CF8CA0837 /* libPods-SDKTrackDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDC1327DD06C51FD6A87541 /* libPods-SDKTrackDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EDC1327DD06C51FD6A87541 /* libPods-SDKTrackDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKTrackDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A48EC2EB2D884009D723E43 /* Pods-SDKTrackDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTrackDemo.debug.xcconfig"; path = "Target Support Files/Pods-SDKTrackDemo/Pods-SDKTrackDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6750BC0A2573E2350009FBA5 /* SDKTrackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKTrackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6750BC0D2573E2350009FBA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6750BC0E2573E2350009FBA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6750BC102573E2350009FBA5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6750BC112573E2350009FBA5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6750BC132573E2350009FBA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6750BC142573E2350009FBA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6750BC172573E2350009FBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6750BC192573E2360009FBA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6750BC1C2573E2360009FBA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6750BC1E2573E2360009FBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6750BC1F2573E2360009FBA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67DFBA3325754C99008DE41E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		67DFBA782575F554008DE41E /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		67DFBA7A2575F563008DE41E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		67DFBA7D2575F571008DE41E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67FC13A92574A2730052227D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		67FC13AC2574A2960052227D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		67FC13AF2574A2AD0052227D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67FC13B12574A2B40052227D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67FC13B32574A2C00052227D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		67FC13B52574A2CA0052227D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		67FC13B72574A2D60052227D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67FC13B92574A2DF0052227D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		893DCB9FD5573A57F192D53C /* Pods-SDKTrackDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTrackDemo.release.xcconfig"; path = "Target Support Files/Pods-SDKTrackDemo/Pods-SDKTrackDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6750BC072573E2350009FBA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25BAE7D1E123C5CF8CA0837 /* libPods-SDKTrackDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6750BC012573E2350009FBA5 = {
+			isa = PBXGroup;
+			children = (
+				6750BC0C2573E2350009FBA5 /* SDKTrackDemo */,
+				6750BC0B2573E2350009FBA5 /* Products */,
+				67FC13A82574A2730052227D /* Frameworks */,
+				B8B87C9C768FCF99E7BB148D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6750BC0B2573E2350009FBA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6750BC0A2573E2350009FBA5 /* SDKTrackDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6750BC0C2573E2350009FBA5 /* SDKTrackDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6750BC0D2573E2350009FBA5 /* AppDelegate.h */,
+				6750BC0E2573E2350009FBA5 /* AppDelegate.m */,
+				6750BC102573E2350009FBA5 /* SceneDelegate.h */,
+				6750BC112573E2350009FBA5 /* SceneDelegate.m */,
+				6750BC132573E2350009FBA5 /* ViewController.h */,
+				6750BC142573E2350009FBA5 /* ViewController.m */,
+				6750BC162573E2350009FBA5 /* Main.storyboard */,
+				6750BC192573E2360009FBA5 /* Assets.xcassets */,
+				6750BC1B2573E2360009FBA5 /* LaunchScreen.storyboard */,
+				6750BC1E2573E2360009FBA5 /* Info.plist */,
+				6750BC1F2573E2360009FBA5 /* main.m */,
+			);
+			path = SDKTrackDemo;
+			sourceTree = "<group>";
+		};
+		67FC13A82574A2730052227D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67DFBA7D2575F571008DE41E /* CoreGraphics.framework */,
+				67DFBA7A2575F563008DE41E /* CFNetwork.framework */,
+				67DFBA782575F554008DE41E /* libbz2.tbd */,
+				67DFBA3325754C99008DE41E /* MobileCoreServices.framework */,
+				67FC13B92574A2DF0052227D /* AdSupport.framework */,
+				67FC13B72574A2D60052227D /* SystemConfiguration.framework */,
+				67FC13B52574A2CA0052227D /* CoreTelephony.framework */,
+				67FC13B32574A2C00052227D /* CoreFoundation.framework */,
+				67FC13B12574A2B40052227D /* UIKit.framework */,
+				67FC13AF2574A2AD0052227D /* Foundation.framework */,
+				67FC13AC2574A2960052227D /* libsqlite3.tbd */,
+				67FC13A92574A2730052227D /* libz.tbd */,
+				3EDC1327DD06C51FD6A87541 /* libPods-SDKTrackDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8B87C9C768FCF99E7BB148D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A48EC2EB2D884009D723E43 /* Pods-SDKTrackDemo.debug.xcconfig */,
+				893DCB9FD5573A57F192D53C /* Pods-SDKTrackDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6750BC092573E2350009FBA5 /* SDKTrackDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6750BC232573E2360009FBA5 /* Build configuration list for PBXNativeTarget "SDKTrackDemo" */;
+			buildPhases = (
+				997EC7DA5EE840401936C9AE /* [CP] Check Pods Manifest.lock */,
+				6750BC062573E2350009FBA5 /* Sources */,
+				6750BC072573E2350009FBA5 /* Frameworks */,
+				6750BC082573E2350009FBA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKTrackDemo;
+			productName = SDKTrackDemo;
+			productReference = 6750BC0A2573E2350009FBA5 /* SDKTrackDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6750BC022573E2350009FBA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6750BC092573E2350009FBA5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 6750BC052573E2350009FBA5 /* Build configuration list for PBXProject "SDKTrackDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6750BC012573E2350009FBA5;
+			productRefGroup = 6750BC0B2573E2350009FBA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6750BC092573E2350009FBA5 /* SDKTrackDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6750BC082573E2350009FBA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6750BC1D2573E2360009FBA5 /* LaunchScreen.storyboard in Resources */,
+				6750BC1A2573E2360009FBA5 /* Assets.xcassets in Resources */,
+				6750BC182573E2350009FBA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		997EC7DA5EE840401936C9AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDKTrackDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6750BC062573E2350009FBA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6750BC152573E2350009FBA5 /* ViewController.m in Sources */,
+				6750BC0F2573E2350009FBA5 /* AppDelegate.m in Sources */,
+				6750BC202573E2360009FBA5 /* main.m in Sources */,
+				6750BC122573E2350009FBA5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6750BC162573E2350009FBA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6750BC172573E2350009FBA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6750BC1B2573E2360009FBA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6750BC1C2573E2360009FBA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6750BC212573E2360009FBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6750BC222573E2360009FBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6750BC242573E2360009FBA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A48EC2EB2D884009D723E43 /* Pods-SDKTrackDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CCXX476JL3;
+				INFOPLIST_FILE = SDKTrackDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKTrackDemo",
+					"$(PROJECT_DIR)/SDKTrackDemo/SDK",
+					"$(PROJECT_DIR)/SDKTrackDemo/归因SDK",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.biz.ads.SDKTrackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6750BC252573E2360009FBA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893DCB9FD5573A57F192D53C /* Pods-SDKTrackDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CCXX476JL3;
+				INFOPLIST_FILE = SDKTrackDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKTrackDemo",
+					"$(PROJECT_DIR)/SDKTrackDemo/SDK",
+					"$(PROJECT_DIR)/SDKTrackDemo/归因SDK",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.biz.ads.SDKTrackDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6750BC052573E2350009FBA5 /* Build configuration list for PBXProject "SDKTrackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6750BC212573E2360009FBA5 /* Debug */,
+				6750BC222573E2360009FBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6750BC232573E2360009FBA5 /* Build configuration list for PBXNativeTarget "SDKTrackDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6750BC242573E2360009FBA5 /* Debug */,
+				6750BC252573E2360009FBA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6750BC022573E2350009FBA5 /* Project object */;
+}
