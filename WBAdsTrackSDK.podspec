@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WBAdsTrackSDK"
-  spec.version      = "0.0.4"
+  spec.version      = "1.0.0"
   spec.summary      = "auto track effectiveness"
   spec.description  = <<-DESC
                    "This is a sdk for weibo advertising effectiveness"

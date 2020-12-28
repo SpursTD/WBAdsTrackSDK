@@ -14,10 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 /** 非空（必填项） */
 @property (nonatomic, copy) NSString *appID;
 
-/** 申请appID时候填写的名称(必填项) */
+/** 申请appID时候填写的名称 */
 @property (nonatomic, copy) NSString *appName;
 
-/** 默认@"App Store", Release版本只有 @"App Store"， debug版本可以任意设置 （必填项）*/
+/** 默认@"App Store", release版本只有 @"App Store"，debug版本可以任意设置*/
 @property (nonatomic, copy) NSString *channel;
 
 /** debug模式，设置为YES
