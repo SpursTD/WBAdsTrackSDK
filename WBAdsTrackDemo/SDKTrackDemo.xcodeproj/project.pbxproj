@@ -366,9 +366,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = CCXX476JL3;
+				DEVELOPMENT_TEAM = MPXZ3AAD6Q;
 				INFOPLIST_FILE = SDKTrackDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,8 +382,9 @@
 					"$(PROJECT_DIR)/SDKTrackDemo/归因SDK",
 				);
 				MARKETING_VERSION = 2.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.biz.ads.SDKTrackDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.biz.fanstonginhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WeiboSuperFansTongInhouse;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -393,9 +395,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = CCXX476JL3;
+				DEVELOPMENT_TEAM = MPXZ3AAD6Q;
 				INFOPLIST_FILE = SDKTrackDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -408,8 +411,9 @@
 					"$(PROJECT_DIR)/SDKTrackDemo/归因SDK",
 				);
 				MARKETING_VERSION = 2.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.biz.ads.SDKTrackDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weibo.biz.fanstonginhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WeiboSuperFansTongInhouse;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

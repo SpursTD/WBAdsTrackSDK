@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "WBAutoTrack.h"
+#import <WBAutoTrack.h>
 #import <MBProgressHUD.h>
 
 @interface ViewController ()

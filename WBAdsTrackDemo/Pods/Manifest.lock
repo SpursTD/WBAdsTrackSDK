@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.2.0)
+  - WBAdsTrackSDK (0.0.5)
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`)
+  - MBProgressHUD
+  - WBAdsTrackSDK (~> 0.0.5)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - WBAdsTrackSDK
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: 4eaec5b586ddd897ebeda896e332a62a9fdab818
+    :git: https://github.com/AFNetworking/AFNetworking.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  WBAdsTrackSDK: 518195b48e9dcb006ecf5e9cebd7cb637babb661
+
+PODFILE CHECKSUM: 0481bafc771370817c93f5f8a320121552c13229
+
+COCOAPODS: 1.10.0
