@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/SpursTD/WBAdsTrackSDK.git", :tag =>  
                         spec.version }
-  spec.source_files  = "WBAdsTrackSDK","WBAdsTrackSDK/Headers/*.{h,m}"
+  spec.source_files  = "WBAdsTrackSDK/Headers/*.{h,m}"
   spec.vendored_library = "WBAdsTrackSDK/libWBAdsTrackSDK.a"
   spec.frameworks =  "Foundation","UIKit"
   spec.requires_arc = true
