@@ -3,8 +3,11 @@
 
 # demo演示
 1、git clone git@github.com:SpursTD/WBAdsTrackSDK.git
+
 2、cd WBAdsTrackSDK/WBAdsTrackDemo
+
 3、pod install
+
 4、open SDKTrackDemo.xcworkspace
 
 
