@@ -75,4 +75,5 @@
     hud.detailsLabel.font = [UIFont boldSystemFontOfSize:13.0f];
     [hud hideAnimated:YES afterDelay:2.0f];
 }
+
 @end
