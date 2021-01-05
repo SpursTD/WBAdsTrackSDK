@@ -6,6 +6,6 @@ target 'SDKTrackDemo' do
   
    pod 'MBProgressHUD'
    
-   pod 'WBAdsTrackSDK' , '~> 0.0.5'
+#   pod 'WBAdsTrackSDK' , '~> 0.0.5'
 
 end

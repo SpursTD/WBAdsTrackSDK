@@ -1,1 +1,0 @@
-../../../WBAdsTrackSDK/WBAdsTrackSDK/Headers/WBAutoTrack.h

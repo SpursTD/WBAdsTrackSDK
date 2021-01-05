@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import <WBAutoTrack.h>
+#import "WBAutoTrack.h"
 #import <MBProgressHUD.h>
 
 @interface ViewController ()
@@ -73,7 +73,13 @@
     hud.label.text = nil;
     hud.detailsLabel.text = text;
     hud.detailsLabel.font = [UIFont boldSystemFontOfSize:13.0f];
-    [hud hideAnimated:YES afterDelay:2.0f];
+    [hud hideAnimated:YES afterDelay:1.0f];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    if ([self.textfield isFirstResponder]) {
+        [self.textfield resignFirstResponder];
+    }
 }
 
 @end

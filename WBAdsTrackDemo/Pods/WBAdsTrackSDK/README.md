@@ -1,2 +1,0 @@
-# WBAutoTrackDemo
-auto track demo
