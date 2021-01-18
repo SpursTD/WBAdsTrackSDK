@@ -15,12 +15,12 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - MBProgressHUD (1.2.0)
-  - WBAdsTrackSDK (0.0.8)
+  - WBAdsTrackSDK (0.0.9)
 
 DEPENDENCIES:
   - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`)
   - MBProgressHUD
-  - WBAdsTrackSDK
+  - WBAdsTrackSDK (~> 0.0.9)
 
 SPEC REPOS:
   trunk:
@@ -39,8 +39,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  WBAdsTrackSDK: 879bb36cca06fab5b469b56723617e1535228e53
+  WBAdsTrackSDK: 2746dd78ce3b795847fa200f9e778b5a0d0b79c7
 
-PODFILE CHECKSUM: 471e6032cf7e14f5b6b46a1d39f73b188176fad1
+PODFILE CHECKSUM: 5b51521dac9a772b899b63e8f51304d9f753154d
 
 COCOAPODS: 1.10.1
