@@ -24,7 +24,7 @@
 - (void)wb_startTrack {
     /** 初始化 */
     WBAutoTrackConfig *config = [WBAutoTrackConfig new];
-    config.appID = @"10";//如不清楚请联系微博运营人员
+    config.appID = @"35";//如不清楚请联系微博运营人员
     config.appName = @"your appName";//与申请APPID时保持一致
     config.channel = @"App Store";//默认为App Store
     config.debugMode = NO;//控制台是否输入日志，仅调试使用，release版本请设置为NO
