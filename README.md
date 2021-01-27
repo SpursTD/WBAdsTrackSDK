@@ -22,7 +22,7 @@ platform :ios, '9.0'
 
 target 'SDKTrackDemo' do
    
-   pod 'WBAdsTrackSDK' , '~> 0.0.5'
+   pod 'WBAdsTrackSDK' , '~> 1.0.1'
 
 end
 ```
@@ -56,7 +56,7 @@ end
 ```
 
 # 版本更新记录
-### 1.0.0
+### 1.0.1
 ```
 新增注册登录等接口
 ```
