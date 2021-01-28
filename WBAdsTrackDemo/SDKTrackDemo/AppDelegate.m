@@ -6,7 +6,6 @@
 //
 
 #import "AppDelegate.h"
-#import "WBAutoTrackConfig.h"
 #import "WBAutoTrack.h"
 
 @interface AppDelegate ()

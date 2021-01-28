@@ -14,7 +14,6 @@
 		6750BC1D2573E2360009FBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6750BC1B2573E2360009FBA5 /* LaunchScreen.storyboard */; };
 		6750BC202573E2360009FBA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC1F2573E2360009FBA5 /* main.m */; };
 		6793444B25A443E800731CCA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6793444925A443E700731CCA /* SceneDelegate.m */; };
-		67B1541425C16EB600E00FD0 /* libWBAdsTrackSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1541325C16EB600E00FD0 /* libWBAdsTrackSDK.a */; };
 		D25BAE7D1E123C5CF8CA0837 /* libPods-SDKTrackDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDC1327DD06C51FD6A87541 /* libPods-SDKTrackDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -33,9 +32,6 @@
 		6750BC1F2573E2360009FBA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6793444925A443E700731CCA /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6793444A25A443E800731CCA /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		67B1540C25C16A6200E00FD0 /* WBAutoTrackConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAutoTrackConfig.h; sourceTree = "<group>"; };
-		67B1540D25C16A6200E00FD0 /* WBAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAutoTrack.h; sourceTree = "<group>"; };
-		67B1541325C16EB600E00FD0 /* libWBAdsTrackSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWBAdsTrackSDK.a; sourceTree = "<group>"; };
 		67DFBA3325754C99008DE41E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		67DFBA782575F554008DE41E /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		67DFBA7A2575F563008DE41E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B1541425C16EB600E00FD0 /* libWBAdsTrackSDK.a in Frameworks */,
 				D25BAE7D1E123C5CF8CA0837 /* libPods-SDKTrackDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,9 +80,6 @@
 		6750BC0C2573E2350009FBA5 /* SDKTrackDemo */ = {
 			isa = PBXGroup;
 			children = (
-				67B1540D25C16A6200E00FD0 /* WBAutoTrack.h */,
-				67B1540C25C16A6200E00FD0 /* WBAutoTrackConfig.h */,
-				67B1541325C16EB600E00FD0 /* libWBAdsTrackSDK.a */,
 				6750BC0D2573E2350009FBA5 /* AppDelegate.h */,
 				6750BC0E2573E2350009FBA5 /* AppDelegate.m */,
 				6793444A25A443E800731CCA /* SceneDelegate.h */,
