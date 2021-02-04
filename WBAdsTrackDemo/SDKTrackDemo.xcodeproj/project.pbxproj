@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6745ED2125C409A4000869FE /* libWBAdsTrackSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6745ED2025C409A4000869FE /* libWBAdsTrackSDK.a */; };
 		6750BC0F2573E2350009FBA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC0E2573E2350009FBA5 /* AppDelegate.m */; };
 		6750BC152573E2350009FBA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6750BC142573E2350009FBA5 /* ViewController.m */; };
 		6750BC182573E2350009FBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6750BC162573E2350009FBA5 /* Main.storyboard */; };
@@ -20,6 +21,9 @@
 /* Begin PBXFileReference section */
 		3EDC1327DD06C51FD6A87541 /* libPods-SDKTrackDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKTrackDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A48EC2EB2D884009D723E43 /* Pods-SDKTrackDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTrackDemo.debug.xcconfig"; path = "Target Support Files/Pods-SDKTrackDemo/Pods-SDKTrackDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6745ED1E25C409A3000869FE /* WBAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAutoTrack.h; sourceTree = "<group>"; };
+		6745ED1F25C409A3000869FE /* WBAutoTrackConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAutoTrackConfig.h; sourceTree = "<group>"; };
+		6745ED2025C409A4000869FE /* libWBAdsTrackSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWBAdsTrackSDK.a; sourceTree = "<group>"; };
 		6750BC0A2573E2350009FBA5 /* SDKTrackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKTrackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6750BC0D2573E2350009FBA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6750BC0E2573E2350009FBA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6745ED2125C409A4000869FE /* libWBAdsTrackSDK.a in Frameworks */,
 				D25BAE7D1E123C5CF8CA0837 /* libPods-SDKTrackDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6745ED1D25C409A3000869FE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6745ED1E25C409A3000869FE /* WBAutoTrack.h */,
+				6745ED1F25C409A3000869FE /* WBAutoTrackConfig.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		6750BC012573E2350009FBA5 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +94,8 @@
 		6750BC0C2573E2350009FBA5 /* SDKTrackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6745ED1D25C409A3000869FE /* Headers */,
+				6745ED2025C409A4000869FE /* libWBAdsTrackSDK.a */,
 				6750BC0D2573E2350009FBA5 /* AppDelegate.h */,
 				6750BC0E2573E2350009FBA5 /* AppDelegate.m */,
 				6793444A25A443E800731CCA /* SceneDelegate.h */,
